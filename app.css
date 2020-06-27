@@ -1,14 +1,14 @@
 :root {
-    background-color: #ecf5ff;
-    font-size: 62.5%;
+  background-color: #ecf5ff;
+  font-size: 62.5%;
 }
 
-*{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
 h1,
@@ -43,18 +43,18 @@ h3 {
 /* UTILITIES */
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .container > * {
-    width: 100%;
+  width: 100%;
 }
 
 .flex-column {
@@ -80,7 +80,6 @@ h3 {
 }
 
 /* BUTTONS */
-
 .btn {
   font-size: 1.8rem;
   padding: 1rem 0;
@@ -106,25 +105,23 @@ h3 {
   transform: none;
 }
 
-
 /* FORMS */
-
 form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input {
-    margin-bottom: 1rem;
-    width: 20rem;
-    padding: 1.5rem;
-    font-size: 1.8rem;
-    border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
 }
 
 input::placeholder {
-    color: #aaa; 
+  color: #aaa;
 }
